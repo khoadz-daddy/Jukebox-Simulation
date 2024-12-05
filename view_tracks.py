@@ -140,7 +140,7 @@ class Viewtracks:
     def save_play_count_to_json(self, track):
         """Saves the updated play count back to the JSON file."""
         try:
-            with open('/Users/mk183/Documents/GREENWICH MATERIALS/Lê Anh Khoa/song.json', 'r+', encoding='utf-8') as file:
+            with open('/Users/mk183/Documents/GREENWICH/JukeBox/song.json', 'r+', encoding='utf-8') as file:
                 songs = json.load(file)  # Load existing songs from JSON file
                 # Update the play count in the list
                 for song in songs:

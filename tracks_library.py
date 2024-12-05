@@ -62,7 +62,7 @@ def list_by_artist(artist):
     return "\n".join(track_list) if track_list else f"No songs found for {artist}."
 
 def reload_library():
-    load_library_from_json('/Users/mk183/Documents/GREENWICH MATERIALS/Lê Anh Khoa/song.json')  # Adjust path as needed
+    load_library_from_json('/Users/mk183/Documents/GREENWICH/JukeBox/song.json')  # Adjust path as needed
 
 def list_all():
     """Returns a formatted string of all tracks in the library."""
@@ -116,7 +116,7 @@ def display_track_details(key):
         print(f"Track {key} not found.")
 
 # Load data from song.json
-load_library_from_json(r'/Users/mk183/Documents/GREENWICH MATERIALS/Lê Anh Khoa/song.json')
+load_library_from_json(r'/Users/mk183/Documents/GREENWICH/JukeBox/song.json')
 print("Library loaded:", library)
 
 # Example usage:

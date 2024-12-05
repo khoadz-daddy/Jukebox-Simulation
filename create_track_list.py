@@ -16,7 +16,7 @@ class TrackListApp:
     def load_tracks(self):
         """Load track data from JSON file."""
         try:
-            file_path = '/Users/mk183/Documents/GREENWICH MATERIALS/Lê Anh Khoa/song.json'  # Specify the file path
+            file_path = '/Users/mk183/Documents/GREENWICH/JukeBox/song.json'  # Specify the file path
             if not os.path.exists(file_path):
                 raise FileNotFoundError(f"{file_path} does not exist.")
             with open(file_path, 'r') as file:
