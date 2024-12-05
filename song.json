@@ -1,0 +1,298 @@
+[
+    {
+        "title": "Shape of You",
+        "singer": "Ed Sheeran",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+        "image_url": "https://upload.wikimedia.org/wikipedia/vi/a/a3/Shape_of_You_cover.jpg",
+        "play_count": 18
+    },
+    {
+        "title": "Perfect",
+        "singer": "Ed Sheeran",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+        "image_url": "https://upload.wikimedia.org/wikipedia/vi/8/80/Ed_Sheeran_Perfect_Single_cover.jpg",
+        "play_count": 8
+    },
+    {
+        "title": "Castle on the Hill",
+        "singer": "Ed Sheeran",
+        "rating": 4,
+        "link": "https://www.youtube.com/watch?v=0y6Wm7mW2Hc",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/2/27/Castle_On_The_Hill_%28Official_Single_Cover%29_by_Ed_Sheeran.png",
+        "play_count": 10
+    },
+    {
+        "title": "Levitating",
+        "singer": "Dua Lipa",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=6gwJ3i2Dg7s",
+        "image_url": "https://upload.wikimedia.org/wikipedia/vi/3/3d/Dua_Lipa_Levitating_%28DaBaby_Remix%29.png",
+        "play_count": 8
+    },
+    {
+        "title": "Don't Start Now",
+        "singer": "Dua Lipa",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=oygrmJFKYlY",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/2/2b/Dua_Lipa_-_Don%27t_Start_Now.png",
+        "play_count": 4
+    },
+    {
+        "title": "Peaches",
+        "singer": "Justin Bieber ft. Daniel Caesar, Giveon",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=tQ0yj1tN9Uo",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/0/0a/Justin_Bieber_-_Peaches.png",
+        "play_count": 1
+    },
+    {
+        "title": "Ghost",
+        "singer": "Justin Bieber",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+        "image_url": "",
+        "play_count": 5
+    },
+    {
+        "title": "Good 4 U",
+        "singer": "Olivia Rodrigo",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=gNi_6U5Vm1s",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/3/3e/Olivia_Rodrigo_-_Good_4_U.png",
+        "play_count": 0
+    },
+    {
+        "title": "drivers license",
+        "singer": "Olivia Rodrigo",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=Zm9sD8V6gF0",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/0/09/Drivers_License_by_Olivia_Rodrigo.png",
+        "play_count": 2
+    },
+    {
+        "title": "Stay",
+        "singer": "The Kid LAROI & Justin Bieber",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=kTJczUoc26U",
+        "image_url": "https://upload.wikimedia.org/wikipedia/vi/1/1e/Poster_b\u00e0i_h\u00e1t_%22Stay%22.png",
+        "play_count": 1
+    },
+    {
+        "title": "Montero (Call Me By Your Name)",
+        "singer": "Lil Nas X",
+        "rating": 4,
+        "link": "https://www.youtube.com/watch?v=6swm68u5pF0",
+        "image_url": "",
+        "play_count": 2
+    },
+    {
+        "title": "Industry Baby",
+        "singer": "Lil Nas X & Jack Harlow",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=H5bP8Cj1t7o",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/f/f7/Lil_Nas_X_-_Industry_Baby.png",
+        "play_count": 0
+    },
+    {
+        "title": "Kiss Me More",
+        "singer": "Doja Cat ft. SZA",
+        "rating": 3,
+        "link": "https://www.youtube.com/watch?v=Gx0k1y1C9R0",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/b/b1/Doja_Cat_-_Kiss_Me_More.png",
+        "play_count": 4
+    },
+    {
+        "title": "Say So",
+        "singer": "Doja Cat",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=0EVW7u9I8Xg",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/b/b1/Doja_Cat_-_Say_So.png",
+        "play_count": 1
+    },
+    {
+        "title": "Heat Waves",
+        "singer": "Glass Animals",
+        "rating": 4,
+        "link": "https://www.youtube.com/watch?v=6W9_c8U8zvY",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/b/b0/Glass_Animals_-_Heat_Waves.png",
+        "play_count": 1
+    },
+    {
+        "title": "Blinding Lights",
+        "singer": "The Weeknd",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=4NRXx6U8ABQ",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+        "play_count": 1
+    },
+    {
+        "title": "Save Your Tears",
+        "singer": "The Weeknd & Ariana Grande",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=9p4g2e0v1f8",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/e/e6/Save_Your_Tears_-_Official_Fortnite_Jam_Track_Cover_Art.png",
+        "play_count": 0
+    },
+    {
+        "title": "Butter",
+        "singer": "BTS",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=WMweEpGlu_U",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/d/db/BTS_-_Butter.png",
+        "play_count": 0
+    },
+    {
+        "title": "Dynamite",
+        "singer": "BTS",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=gdS7uM8CkC4",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/BTS_-_Dynamite_%28official_cover%29.png",
+        "play_count": 0
+    },
+    {
+        "title": "Cold Heart (PNAU Remix)",
+        "singer": "Elton John & Dua Lipa",
+        "rating": 4,
+        "link": "https://www.youtube.com/watch?v=1qA8u4kqK2I",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/0/08/Elton_John%2C_Dua_Lipa_-_Cold_Heart.png",
+        "play_count": 0
+    },
+    {
+        "title": "Leave The Door Open",
+        "singer": "Bruno Mars & Anderson .Paak",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=ad1C0a0kKHg",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/4/4f/Silk_Sonic_-_Leave_the_Door_Open.png",
+        "play_count": 0
+    },
+    {
+        "title": "About Damn Time",
+        "singer": "Lizzo",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=6sGZ1tX54jE",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/d/da/Lizzo_-_About_Damn_Time.png",
+        "play_count": 0
+    },
+    {
+        "title": "Shivers",
+        "singer": "Ed Sheeran",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=Gx0k1y1C9R0",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/b/b0/Ed_Sheeran_-_Shivers.png",
+        "play_count": 0
+    },
+    {
+        "title": "Take My Breath",
+        "singer": "The Weeknd",
+        "rating": 4,
+        "link": "https://www.youtube.com/watch?v=4b3uYScKJ9o",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/1/11/The_Weeknd_-_Take_My_Breath.png",
+        "play_count": 1
+    },
+    {
+        "title": "Don't Go Yet",
+        "singer": "Camila Cabello",
+        "rating": 4,
+        "link": "https://www.youtube.com/watch?v=3v7b4Z1G2Xo",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/7/71/Camila_Cabello_-_Don%27t_Go_Yet.png",
+        "play_count": 0
+    },
+    {
+        "title": "Monsters",
+        "singer": "All Time Low ft. Demi Lovato",
+        "rating": 4,
+        "link": "https://www.youtube.com/watch?v=9i6D6O5P9j8",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/7/73/Monsters_Cover_Art.png",
+        "play_count": 0
+    },
+    {
+        "title": "Rasputin",
+        "singer": "Boney M.",
+        "rating": 4,
+        "link": "https://www.youtube.com/watch?v=2D8l5XpS4kE",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/3/30/Boney_M._-_Rasputin_%281978_single%29.jpg",
+        "play_count": 0
+    },
+    {
+        "title": "Bang Bang",
+        "singer": "Jessie J, Ariana Grande, Nicki Minaj",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=0hdKQ0g7LiA",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/3/38/Jessie_J_-_Bang_Bang_%28featuring_Ariana_Grande_%26_Nicki_Minaj%29_Cover_Art.png",
+        "play_count": 0
+    },
+    {
+        "title": "Blackpink in Your Area",
+        "singer": "BLACKPINK",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=2S2B2GFyY8g",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Black_Pink_Black_In_Your_Area_Digital_Cover.jpg",
+        "play_count": 2
+    },
+    {
+        "title": "Watermelon Sugar",
+        "singer": "Harry Styles",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=E07s5byZ8uU",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/b/bf/Watermelon_Sugar_-_Harry_Styles.png",
+        "play_count": 3
+    },
+    {
+        "title": "Happier Than Ever",
+        "singer": "Billie Eilish",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=5D5WZbWw7v0",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/4/45/Billie_Eilish_-_Happier_Than_Ever.png",
+        "play_count": 0
+    },
+    {
+        "title": "Stupid Love",
+        "singer": "Lady Gaga",
+        "rating": 4,
+        "link": "https://www.youtube.com/watch?v=ZsSx8k0xHqI",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/3/34/Lady_Gaga_-_Stupid_Love.png",
+        "play_count": 6
+    },
+    {
+        "title": "Good Days",
+        "singer": "SZA",
+        "rating": 4,
+        "link": "https://www.youtube.com/watch?v=J5pW3KZg7dE",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/7/7c/SZA_-_Good_Days.png",
+        "play_count": 1
+    },
+    {
+        "title": "I Like It",
+        "singer": "Cardi B, Bad Bunny & J Balvin",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=6Z9FfD6z9sw",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/8/82/Cardi_B%2C_Bad_Bunny_and_J_Balvin_-_I_Like_It_%28Single_Cover%29.png",
+        "play_count": 1
+    },
+    {
+        "title": "Counting Stars",
+        "singer": "OneRepublic",
+        "rating": 4,
+        "link": "https://www.youtube.com/watch?v=hT_nvWreIhg",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/3/37/OneRepublic_Counting_Stars_cover.png",
+        "play_count": 1
+    },
+    {
+        "title": "Shallow",
+        "singer": "Lady Gaga & Bradley Cooper",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=bo_8D4Q3eKw",
+        "image_url": "",
+        "play_count": 1
+    },
+    {
+        "title": "Believer",
+        "singer": "Imagine Dragons",
+        "rating": 5,
+        "link": "https://www.youtube.com/watch?v=7wtPzS2PdYc",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/5/5c/Imagine-Dragons-Believer-art.jpg",
+        "play_count": 0
+    }
+]
