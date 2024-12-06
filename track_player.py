@@ -89,30 +89,44 @@ class TrackPlayer:
 def import_track_list(tree, status_lbl):
     """Import a track list from a CSV file and update the Treeview."""
     status_lbl.configure(text="Import Track List button was clicked!")
-    file_path = filedialog.askopenfilename(filetypes=[("CSV files", "*.csv")])  # Open file dialog
+    file_path = filedialog.askopenfilename(filetypes=[("CSV files", "*.csv")])
     if file_path:
-        with open(file_path, newline='') as csvfile:
-            reader = csv.reader(csvfile)  # Read the selected CSV file
-            for track in reader:
-                if len(track) >= 4:  # Ensure there are enough columns
-                    tree.insert("", tk.END, values=track)  # Insert each track into the Treeview
-        status_lbl.configure(text="Track list imported successfully.")  # Update status after import
+        try:
+            with open(file_path, mode="r", newline="", encoding="utf-8") as csv_file:
+                reader = csv.DictReader(csv_file)  # Sử dụng DictReader để xử lý cột dễ dàng
+                for row in reader:
+                    # Đảm bảo dữ liệu có đủ cột và nhập đúng định dạng
+                    if "Song" in row and "Artist" in row and "Rating" in row and "Play Count" in row:
+                        tree.insert("", tk.END, values=(row["Song"], row["Artist"], row["Rating"], row["Play Count"]))
+            status_lbl.configure(text="Track list imported successfully.")
+        except Exception as e:
+            status_lbl.configure(text=f"Import failed: {str(e)}")
+    else:
+        status_lbl.configure(text="Import cancelled.")
 
 def export_track_list(tree, status_lbl):
-    """Export tracks with play_count > 0 to a CSV file without headers."""
+    """Export tracks with play_count > 0 from song.json to a CSV file."""
     status_lbl.configure(text="Export Track List button was clicked!")
-    file_path = filedialog.asksaveasfilename(defaultextension=".csv", filetypes=[("CSV files", "*.csv")])  # Save dialog
+    file_path = filedialog.asksaveasfilename(defaultextension=".csv", filetypes=[("CSV files", "*.csv")])
     if file_path:
-        with open(file_path, mode='w', newline='') as csvfile:
-            writer = csv.writer(csvfile)  # Create a CSV writer
-            # Write tracks with play_count > 0
-            for item in tree.get_children():
-                track = tree.item(item)['values']
-                if int(track[3]) > 0:  # Check play count
-                    writer.writerow([track[0], track[1], track[2], track[3]])  # Write track data
-        status_lbl.configure(text="Track list exported successfully.")
+        try:
+            # Đọc dữ liệu từ JSON
+            with open("song.json", "r") as json_file:
+                tracks = json.load(json_file)
+            filtered_tracks = [track for track in tracks if track.get("play_count", 0) > 0]
+            
+            with open(file_path, mode="w", newline="", encoding="utf-8") as csv_file:
+                writer = csv.writer(csv_file)
+                writer.writerow(["Song", "Artist", "Rating", "Play Count"])  # Ghi tiêu đề cột
+                for track in filtered_tracks:
+                    writer.writerow([track["title"], track["singer"], track["rating"], track["play_count"]])
+            
+            status_lbl.configure(text="Track list exported successfully.")
+        except Exception as e:
+            status_lbl.configure(text=f"Export failed: {str(e)}")
     else:
         status_lbl.configure(text="Export cancelled.")
+
 
 # Main Window setup
 window = tk.Tk()  # Create the main application window
